@@ -1,0 +1,323 @@
+@import url(./global.css);
+.header-top .container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(9, 4, 42);
+}
+.header-top .container div p  span{
+  color: gold;
+}
+.header-top .container div p{
+    color: white;
+    margin-right: 400px;
+  }
+  .header-top .container .social-media-icons ul li{
+    list-style-type: none;
+    margin-left: 15px;
+}
+   
+  .header-top .container .social-media-icons ul li i{
+    color: white;
+}
+.header-top .container .social-media-icons ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-bottom .container{
+   display: flex;
+   justify-content: space-around;
+   background-color: gray;
+}
+.header-bottom .container h1{
+   color: white;
+   margin-right: 100px;
+ }
+ .header-bottom .container ul li a h3{
+    color: white;
+  }
+  .header-bottom .container ul{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header-bottom .container ul li{
+    list-style-type: none;
+    margin-left: 15px;
+}
+#Intro .first-part{
+   position: relative;
+   left: 110px;
+   top: 75px;
+}
+#Intro .our-benefits{
+    position: relative;
+    top: 200px;
+    
+    display: flex;
+    justify-content: space-evenly;
+ }
+ #Intro .first-part a button{
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    height: 50px;
+    width: 125px;
+    cursor: pointer;
+}
+#Intro .first-part p, h5, h2{
+    color: white;
+ }
+ #Intro .first-part p span a{
+    color:aqua;
+ }
+ .our-benefits h3, p{
+    color: white;
+ }
+ .our-benefits div{
+    background-color: red;
+    height: 200px;
+ }
+ .our-benefits div h3{
+    margin-top: 100px;
+    text-align: center;
+ }
+ .our-benefits div .text{
+    text-align: center;
+ }
+ .our-benefits div i{
+    position: relative;
+    left: 150px;
+    top: 60px;
+ }
+ .our-benefits div{
+    border-radius: 25px;
+ }
+ #NewsAndEvents h2{
+    text-align: center;
+    position: relative;
+    top: 50px;
+ }
+
+#NewsAndEvents .first-part .M-category{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 25px;
+    
+}
+#NewsAndEvents .first-part div a button{
+    border-radius: 25px;
+    height: 50px;
+    width: 225px;
+    background-color: red;
+    color: white;
+    margin-left: 25px;
+}
+#NewsAndEvents .first-part div h4{
+   text-align:left;
+   color: black;
+}
+#NewsAndEvents .first-part div h3{
+    text-align:center;
+    color: black;
+ }
+ #NewsAndEvents .first-part .M-category div{
+    position: relative;
+    top: 50px;
+ }
+ #NewsAndEvents .full-part{
+    display: flex;
+    justify-content: space-around;
+ }
+ #NewsAndEvents .full-part .second-part{
+   position: relative;
+   top: 100px;
+   left: 100px;
+   display: flex;
+   flex-wrap: wrap;
+  
+ }
+ #NewsAndEvents .full-part .second-part div .text{
+   display: flex;
+   justify-content: space-around
+ }
+ #NewsAndEvents .full-part .second-part div .text .date{
+   position: relative;
+   top: 19px;;
+ }
+ #NewsAndEvents .full-part .second-part div{
+   background-color: white;
+   border-radius: 25px;
+ }
+ #ApplyAndShare .apply div{
+   background-color: gray;
+   width: 500px;
+   height: 250px;
+  
+ }
+ #ApplyAndShare .apply div h2, p, button{
+   color: white;
+ }
+ #ApplyAndShare .apply .content div a button{
+   border-radius: 25px;
+   height: 50px;
+   width: 225px;
+   background-color: red;
+   color: white;
+   margin-left: 25px;
+   cursor: pointer;
+}
+#ApplyAndShare .share{
+   background-color: white;
+   position: relative;
+   top: 25px;
+   height: 1050px;
+   border-radius: 25px;
+}
+
+#ApplyAndShare .share ul li p, a h3{
+   color: black;
+}
+#ApplyAndShare .share ul li span{
+   color: aqua;
+}
+#OurServices .total{
+   display: flex;
+   justify-content:space-around;
+}
+#OurServices .total{
+   position: relative;
+   top: 75px;
+   bottom: 50px;
+  
+}
+#OurServices h2{
+   position: relative;
+   top: 50px;
+   left: 50px;
+}
+#OurServices .total .box{
+   background-color: white;
+   border-radius: 25px;
+}
+#Statistics .total{
+  display: flex;
+  justify-content: space-between;
+}
+#Statistics .d-flex-image img{
+   height: 400px;
+   width: 600px;
+   border-radius: 25px;
+}
+#Statistics .total .d-flex-image{
+   position: relative;
+   top: 150px;
+   right: 50px;
+}
+#Statistics .total .d-flex-content .statistics{
+   display: flex;
+   justify-content:space-evenly;
+   flex-wrap: wrap;
+}
+#Statistics .total .d-flex-content .statistics div{
+   width: 300px;
+   background-color: gray;
+   position: relative;
+   top: 50px;
+   margin-top: 30px;
+}
+#Statistics .total .d-flex-content .title{
+   position: relative;
+   left: 80px;
+   top: 70px;
+}
+#Statistics .total .d-flex-content .statistics div span{
+   color: gold;
+   font-size: 50px;
+}
+#Statistics .total .d-flex-content .title h2{
+   font-size: 30px;
+}
+#Statistics .total .d-flex-content .statistics div h3{
+   color: white;
+   font-size: 25px;
+}
+#Statistics .total .d-flex-content .statistics div{
+   border-radius: 25px;
+}
+#ContactUs{
+   display: flex;
+   justify-content:space-around;
+}
+#ContactUs .output{
+   background-color: red;
+   width: 350px;
+   height: 600px;
+   border-radius: 20px;
+   position: relative;
+   top: 100px;
+}
+#ContactUs .output div h4, h3{
+   color: white;
+}
+#ContactUs .output div h3{
+   font-size: 25px;
+}
+#ContactUs .output div{
+   position: relative;
+   left: 35px;
+   top: 70px;
+   
+}
+
+#ContactUs .input{
+   position: relative;
+   top: 125px;
+}
+#ContactUs .input .info{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   
+}
+#ContactUs .input{
+   background-color: white;
+   width: 900px;
+   height: 600px;
+   border-radius: 25px;
+}
+#ContactUs .input h3{
+   color: black;
+   font-size: 25px;
+   position: relative;
+   top: 25px;
+   left: 75px;
+}
+#ContactUs .input .info div input{
+   width: 200px;
+   height: 50px;
+   border-radius: 25px;
+   position: relative;
+   top: 25px;
+}
+#ContactUs .input .info .message input{
+   width: 750px;
+   height: 300px;
+   border-radius: 25px;
+   position: relative;
+   top: 50px;
+}
+#ContactUs .input a button{
+   border-radius: 25px;
+   height: 50px;
+   width: 225px;
+   background-color: red;
+   color: white;
+   margin-left: 25px;
+   cursor: pointer;
+   position: relative;
+   top: 80px;
+   left: 75px;
+}

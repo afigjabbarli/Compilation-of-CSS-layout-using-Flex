@@ -1,0 +1,42 @@
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+a{
+    text-decoration: none;
+}
+#Intro{
+    background-color:  rgb(9, 4, 42);
+    height: 900px;
+    
+}
+#NewsAndEvents{
+    background-color: gray;
+    height: 1000px;
+    
+ }
+#ApplyAndShare{
+    height: 1100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 3, 45);
+   
+}
+#OurServices{
+    background-color: gray;
+    height: 600px;
+}
+#Statistics{
+    background-color: rgb(3, 3, 45);
+    height: 600px;
+}
+#ContactUs{
+    background-color: gray;
+    height: 800px;
+
+}
+   
+    
+
+    
